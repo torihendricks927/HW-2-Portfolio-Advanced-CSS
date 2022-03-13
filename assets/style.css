@@ -5,35 +5,69 @@
 
 header {
     display: flex;
-    flex-wrap: wrap;
-    flex-flow: row;
-    margin-top: 2%;
-    margin-left: 2%;
+    flex-flow: column;
     justify-content:space-between;
+    margin-top: 2%;
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 50px;
     color: #774936;
     font-family: cursive;
+    background-color: white;
+    border-bottom: 10px rgb(146, 98, 122);
+    border-top: 10px #283618;
+    border-style: solid;
+    padding: 15px
 }
 
-.menu {
+nav {
     font-family: cursive;
-    font-size: 30px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 100px;
     color: #774936;   
-    border: 3px saddlebrown;
 }
 
-.menu li {
+nav li {
     padding: 30px;
     color: #774936;
 }
 
 .avatar {
-    position: relative;
-    padding-right: 40px;
-    wdith: 100%;
+    position: absolute;
+    top: 170px;
+    right: 100px;
+    border-style: 30px solid;
+    border-color: #774936;
 
+    
+    
+}
+
+.Box-1 {
+    border: 1px #9d6b53;
+    padding: 10px;
+    background-color: #9d6b53;
+    color: #edc4b3;
+    flex-direction: column;
+}
+
+.Box-1 h2 {
+    font-size: 40px;
+}
+
+.Box-1 h2, p {
+    background-color: #9d6b53;
+    font-family: cursive;
+}
+
+.Box-1 p {
+    font-size: 20px;
+}
+
+.img-1 {
+    display: flex;
+    max-width: 20%;
+    max-height: 400px;
+    
 }
