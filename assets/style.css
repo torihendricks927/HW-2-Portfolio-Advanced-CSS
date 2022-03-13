@@ -1,0 +1,39 @@
+* {
+    background-color: #e7d8c9;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    margin-top: 2%;
+    margin-left: 2%;
+    justify-content:space-between;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #774936;
+    font-family: cursive;
+}
+
+.menu {
+    font-family: cursive;
+    font-size: 30px;
+    padding: 10px;
+    color: #774936;   
+    border: 3px saddlebrown;
+}
+
+.menu li {
+    padding: 30px;
+    color: #774936;
+}
+
+.avatar {
+    position: relative;
+    padding-right: 40px;
+    wdith: 100%;
+
+}
