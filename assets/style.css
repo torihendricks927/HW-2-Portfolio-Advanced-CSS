@@ -51,7 +51,7 @@ header h2 {
 }
 
 .Box-1 {
-    padding: 50px;
+    padding: 70px;
     background-color: #9d6b53;
     flex-direction: column;
     max-width:100%
@@ -75,7 +75,7 @@ header h2 {
 .img-1 {
     position: absolute;
     right:100px;
-    top: 650px
+    top: 670px
 }
 
 .Box-2 {
@@ -83,4 +83,43 @@ header h2 {
     background-color:#545e56;
     display:flex;
     flex-direction: column;
+    font-family: cursive;
+}
+
+.Box-2 h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: tan;
+    background-color: #545e56;
+    text-align: center;
+}
+
+.Box-2 h3 {
+    font-size: 30px;
+    padding-left: 20px;
+    background-color: #545e56;
+    color: rgb(228, 209, 185);
+    text-underline-position: below;
+}
+
+.Work-1-img {
+    padding: 20px;
+    background-color:#545e56;
+}
+
+.Box-2 h4 {
+    display:flex;
+    flex-direction: row;
+    font-size: 30px;
+    background-color:#545e56;
+    color: rgb(228, 209, 185);
+    padding: 20px;
+}
+
+.placeholder {
+    display: flex;
+    flex-basis: 1;
+    background-color: #545e56;
+    padding: 20px;
+
 }
