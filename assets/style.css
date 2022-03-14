@@ -1,6 +1,5 @@
 * {
     background-color: #e7d8c9;
-    box-sizing: border-box;
 }
 
 header {
@@ -22,25 +21,35 @@ header h1 {
 }
 
 nav {
-    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 150px;
+    margin-left: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
-    padding: 80px;
     color: #774936;  
-    justify-content: center;
-}
-
-nav li {
-    padding: 20px;
-    margin-left: 30px;
-    color: #774936;
 }
 
 .avatar {
     position: absolute;
     top: 150px;
-    right: 120px;
-    width: 30%;
+    right: 250px;
+    width: -25%;
 }
+
+@media only screen and (max-width: 871px) {
+    nav {
+       margin-left: 10px;
+       padding: 10px;
+       padding-bottom: 160px;
+    }
+    .avatar {
+        width: 130px;
+        height: auto;
+        position: absolute;
+        left: 350px;
+    }
+} 
 
 header h2 {
     font-size: 30px;
@@ -54,7 +63,7 @@ header h2 {
     padding: 70px;
     background-color: #9d6b53;
     flex-direction: column;
-    max-width:100%
+    max-width:100%;
 }
 
 .Box-1 h2 {
@@ -63,19 +72,12 @@ header h2 {
 
 .Box-1 h2, p {
     background-color: #9d6b53;
-    font-family: cursive;
     color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Box-1 p {
     font-size: 20px;
-    max-width:50%
-}
-
-.img-1 {
-    position: absolute;
-    right:100px;
-    top: 670px
 }
 
 .Box-2 {
@@ -83,7 +85,7 @@ header h2 {
     background-color:#545e56;
     display:flex;
     flex-direction: column;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Box-2 h2 {
@@ -103,8 +105,15 @@ header h2 {
 }
 
 .Work-1-img {
+    width: 100%;
     padding: 20px;
     background-color:#545e56;
+}
+
+@media only screen and (max-width: 800px) {
+    .Work-1-img {
+        width: 100%;
+    }
 }
 
 .Box-2 h4 {
@@ -118,8 +127,45 @@ header h2 {
 
 .placeholder {
     display: flex;
-    flex-basis: 1;
     background-color: #545e56;
     padding: 20px;
-
+    width: 50%;
 }
+
+@media only screen and (max-width: 630px) {
+    .placeholder {
+        width: 70%;
+    }
+}
+
+.Box-3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(146, 98, 122);
+    color:whitesmoke;
+    text-align: center;
+}
+
+.Box-3 h2 {
+    font-size: 40px;
+    background-color: rgb(146, 98, 122);
+    padding: 10px;
+}
+
+.Box-3 ul {
+    font-size: 25px;
+    color: whitesmoke;
+    background-color: rgb(146, 98, 122);
+}
+
+.Box-3 ul li {
+    background-color:rgb(146, 98, 122);
+    padding: 10px;
+}
+
+
+
+
+
+
