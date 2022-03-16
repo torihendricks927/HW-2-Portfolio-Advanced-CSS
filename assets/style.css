@@ -35,14 +35,14 @@ nav {
     position: absolute;
     top: 150px;
     right: 250px;
-    width: -25%;
+    width: -45%;
 }
 /* provided media query for smaller screen size so my img would be center and nav moved to side to avoid crunch appearance */
 @media only screen and (max-width: 871px) {
     nav {
        margin-left: 10px;
        padding: 10px;
-       padding-bottom: 180px;
+       padding-bottom: 150px;
     }
     .avatar {
         width: 180px;
@@ -50,7 +50,16 @@ nav {
         position: absolute;
         left: 350px;
     }
-} 
+}
+/* modified img so it will fit phone screens */
+@media only screen and (max-width: 550px) {
+    .avatar {
+        width: 200px;
+        position: absolute;
+        left: 200px;
+    }
+}
+
 /* added quote separate to flex box above */
 header h2 {
     font-size: 30px;
