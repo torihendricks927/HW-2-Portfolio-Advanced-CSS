@@ -8,7 +8,7 @@ header {
     justify-content:space-between;
     margin-top: 1%;
 }
-
+/* separated to provide detail specifically to my name and border */
 header h1 {
     font-size: 50px;
     color: #774936;
@@ -19,24 +19,25 @@ header h1 {
     border-style: solid;
     padding: 15px
 }
-
+/* wanted my nav separate from my header block and next to image */
 nav {
     display: flex;
     flex-wrap: wrap;
-    padding: 150px;
+    padding: 120px;
     margin-left: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     color: #774936;  
+    
 }
-
+/* did img separately to allow absolute position separate from flexbox used in earlier elements */
 .avatar {
     position: absolute;
     top: 150px;
     right: 250px;
     width: -25%;
 }
-
+/* provided media query for smaller screen size so my img would be center and nav moved to side to avoid crunch appearance */
 @media only screen and (max-width: 871px) {
     nav {
        margin-left: 10px;
@@ -44,13 +45,13 @@ nav {
        padding-bottom: 160px;
     }
     .avatar {
-        width: 130px;
+        width: 200px;
         height: auto;
         position: absolute;
         left: 350px;
     }
 } 
-
+/* added quote separate to flex box above */
 header h2 {
     font-size: 30px;
     font-family: cursive;
@@ -65,7 +66,7 @@ header h2 {
     flex-direction: column;
     max-width:100%;
 }
-
+/* distinctions b/w paragraph and title inportant to me in font size */
 .Box-1 h2 {
     font-size: 40px;
 }
@@ -79,7 +80,7 @@ header h2 {
 .Box-1 p {
     font-size: 20px;
 }
-
+/* separated several elements in box 2 to make it easier in enlarging project 1 while keeping other project placeholders same sizes */
 .Box-2 {
     padding: 30px;
     background-color:#545e56;
@@ -109,7 +110,7 @@ header h2 {
     padding: 20px;
     background-color:#545e56;
 }
-
+/* wanted to keep this img larger than placeholders to meet criteria without it being moved out of screen */
 @media only screen and (max-width: 800px) {
     .Work-1-img {
         width: 100%;
@@ -131,13 +132,13 @@ header h2 {
     padding: 20px;
     width: 50%;
 }
-
+/* wanted placeholders to remain smaller than project 1 img to meet criteria at all screen sizes */
 @media only screen and (max-width: 630px) {
     .placeholder {
         width: 70%;
     }
 }
-
+/* contact section i wanted to keep at bottom and centered with links to my specific pages */
 .Box-3 {
     display: flex;
     flex-wrap: wrap;
